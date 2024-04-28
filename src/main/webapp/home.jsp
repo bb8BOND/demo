@@ -7,10 +7,22 @@
     <link rel="stylesheet" href="/home.css">
 </head>
 <body>
-    <div class="title">
-        <h2>早押しクイズ</h2>
-    </div>
+    <p class="text">
+        <span>ク</span>
+        <span>イ</span>
+        <span>ズ</span>
+        <span>を</span>
+        <span>始</span>
+        <span>め</span>
+        <span>よ</span>
+        <span>う</span>
+        <span>！</span>
+    </p>
 
+    <div class="title">
+        <h2>早押しクイズ　ボタンを押してスタート</h2>
+    </div>
+    
     <a class="start-btn" href="/form.jsp">
         <img src="resources/image/スクリーンショット 2024-04-28 1.04.03.png">
     </a>
