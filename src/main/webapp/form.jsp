@@ -13,10 +13,10 @@
     
     <div class="btn">
         <button>
-            <a href="/searchQuiz/search.html">閲覧モード</a>
+            <a href="searchQuiz/search.html">閲覧モード</a>
         </button>
         <button>
-            <a href="#">回答モード</a>
+            <a href="QuizMode/makeRoom.jsp">回答モード</a>
         </button>
         <button>
             <a href="#">作問モード</a>

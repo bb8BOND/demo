@@ -12,7 +12,7 @@
 
         document.getElementById("startButton").onclick = function() {
             // WebSocket サーバーに接続
-            socket = new WebSocket("ws://192.168.11.14:8081/gameroom");
+            socket = new WebSocket("ws://192.168.11.14:8025/websocket");
 
             // 接続が確立されたときの処理
             socket.onopen = function(event) {
