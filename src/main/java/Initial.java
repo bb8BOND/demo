@@ -32,8 +32,11 @@ public class Initial {
     }
 
     public static void startWebSocketServer() throws DeploymentException {
+
+        String HoriutiLab = "192.168.11.14";
+
         // WebSocketサーバーを起動
-        org.glassfish.tyrus.server.Server server = new org.glassfish.tyrus.server.Server("192.168.11.14", 8025, "", null, HelloWorldEndpoint.class);
+        org.glassfish.tyrus.server.Server server = new org.glassfish.tyrus.server.Server("localhost", 8025, "", null, HelloWorldEndpoint.class);
         try {
             server.start();
             System.out.println("WebSocket server started...");

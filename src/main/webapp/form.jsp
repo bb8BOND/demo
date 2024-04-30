@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-    <link rel="stylesheet" href="/form.css">
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
 
@@ -13,10 +13,10 @@
     
     <div class="btn">
         <button>
-            <a href="searchQuiz/search.html">閲覧モード</a>
+            <a href="searchQuiz/search.jsp">閲覧モード</a>
         </button>
         <button>
-            <a href="QuizMode/makeRoom.jsp">回答モード</a>
+            <a href="QuizMode/SolveSelection.jsp">回答モード</a>
         </button>
         <button>
             <a href="#">作問モード</a>
