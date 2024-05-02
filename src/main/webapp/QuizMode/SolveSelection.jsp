@@ -13,8 +13,8 @@
     <button id ="create_room" class="solve_selectStart">
         <a href="host.jsp">Start Room</a>
     </button>
-    <button id ="join_room" class="solve_selectJoin" onclick="alert('joinButton clicked!')">
-        <a href="#">Join Room</a>
+    <button id ="join_room" class="solve_selectJoin">
+        <a href="guest.jsp">Join Room</a>
     </button>
 </body>
 </html>
