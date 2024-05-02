@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="host.css">
-  <title>Client solve select host</title> 
+  <title>Client select host</title> 
 </head>
 <body>
   <h1>
@@ -54,6 +54,6 @@
       messageInput.value = "";
     }
   </script>
-  
+
 </body>
 </html>
