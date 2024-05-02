@@ -13,7 +13,7 @@ public class Initial {
         // 静的なコンテンツを提供するためのハンドラーを追加
         ResourceHandler resourceHandler = new ResourceHandler();
         resourceHandler.setDirectoriesListed(true);
-        resourceHandler.setWelcomeFiles(new String[]{"home.jsp"});
+        // resourceHandler.setWelcomeFiles(new String[]{"/mywork/jsp/home.jsp"});
         resourceHandler.setResourceBase("src/main/webapp");
 
         httpServer.setHandler(resourceHandler);
