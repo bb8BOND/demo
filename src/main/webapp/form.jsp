@@ -13,7 +13,7 @@
     
     <div class="btn">
         <button>
-            <a href="searchMode/search.jsp">閲覧モード</a>
+            <a href="SearchMode/search.jsp">閲覧モード</a>
         </button>
         <button>
             <a href="QuizMode/SolveSelection.jsp">回答モード</a>
